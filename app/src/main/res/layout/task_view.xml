@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cuadradoazul"
+    android:paddingHorizontal="15dp"
+    android:paddingVertical="20dp"
+    android:gravity="center"
+    android:padding="4dp"
+    android:layout_marginHorizontal="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+
+>
+
+    <TextView
+        android:id="@+id/taskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="TaskName"
+        android:textColor="@color/colorDarkBlue"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/taskWhen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="When"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="18dp"
+        android:layout_marginVertical="5dp"/>
+    <TextView
+        android:id="@+id/taskTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Time"
+        android:textStyle="bold"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="22dp"/>
+
+</LinearLayout>
+
+
+
+</LinearLayout>
